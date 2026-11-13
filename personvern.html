@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personvernerklæring · bored.</title>
+  <meta name="description" content="Personvernerklæring for appen bored.">
+  <style>
+:root {
+  --bg: #F0ECE4;
+  --text: #1A1915;
+  --muted: #5E5A54;
+  --line: #D8D2C8;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4.5rem;
+}
+header { margin-bottom: 2.5rem; }
+h1 {
+  font-family: ui-serif, "Iowan Old Style", Palatino, Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 2.15rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.6rem;
+}
+.lede, .updated, footer {
+  color: var(--muted);
+}
+.lede {
+  margin: 0;
+  font-size: 1.0625rem;
+}
+.updated {
+  margin: 0.85rem 0 0;
+  font-size: 0.9375rem;
+}
+h2 {
+  font-family: ui-serif, "Iowan Old Style", Palatino, Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 2.15rem 0 0.6rem;
+}
+h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin: 1.5rem 0 0.4rem;
+}
+p { margin: 0 0 1rem; }
+ul {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+}
+li { margin: 0 0 0.45rem; }
+a {
+  color: var(--text);
+  text-underline-offset: 0.18em;
+}
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2.5rem 0 1.25rem;
+}
+footer { font-size: 0.9375rem; }
+footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Personvernerklæring</h1>
+      <p class="lede">for appen bored.</p>
+      <p class="updated">Sist oppdatert 13. november 2026</p>
+    </header>
+
+    <h2>Behandlingsansvarlig</h2>
+    <p>Dusan Jakovic er behandlingsansvarlig for opplysningene i appen bored.</p>
+    <p>E-post: <a href="mailto:dusjak@live.com">dusjak@live.com</a></p>
+
+    <h2>Hva appen lagrer</h2>
+    <p>bored. lagrer det du gjør i appen, på telefonen din:</p>
+    <ul>
+      <li>Økter: når de startet og sluttet, varighet, og om du fullførte eller avsluttet tidlig</li>
+      <li>Valgfrie notater, og hvordan økten føltes, hvis du skriver det</li>
+      <li>Innstillinger, for eksempel varighet, utseende, daglig påminnelse og om nedtelling vises</li>
+      <li>Svar fra oppstarten, blant annet fornavn hvis du oppgir det</li>
+    </ul>
+
+    <h2>Hvor det lagres</h2>
+    <p>Alt ligger i en lokal SQLite-database på telefonen, i filen bored.db. Vi har ingen server som tar imot økter, notater eller innstillinger. Du trenger ikke en konto, og det er ingen innlogging i appen.</p>
+    <p>Hvis du tar sikkerhetskopi av hele iPhonen med iCloud eller en datamaskin, kan Apples egen kopi inneholde data fra appen. Det styres av Apple, ikke av oss.</p>
+
+    <h2>Sikkerhetskopi i appen</h2>
+    <p>Sikkerhetskopi finnes ikke i appen ennå. Under Deg, og i et hint i Logg, kan du si fra at du vil ha den ved å trykke «Jeg vil ha det». Da telles bare en anonym interesse. Ingen økter, notater eller innstillinger lastes opp, og ingenting sendes ut av telefonen.</p>
+    <p>En ekte skylagring er ikke tatt i bruk. Denne erklæringen blir oppdatert før det eventuelt skjer.</p>
+
+    <h2>Varsler</h2>
+    <p>Varsler er lokale, på telefonen. Hvis du gir tillatelse, kan appen varsle når en økt er ferdig, og du kan slå på en daglig påminnelse. Vi henter ikke et push-token, og vi sender ikke varsler fra en server.</p>
+
+    <h2>Analyse og krasjrapporter</h2>
+    <p>Vi teller noen få handlinger i appen med Mixpanel, lagret på Mixpanels server i EU (api-eu.mixpanel.com). Vi gjør det for å forstå hvordan appen brukes, og om folk ønsker Sikkerhetskopi.</p>
+    <p>Tellingen omfatter knappetrykk, blant annet «Jeg vil ha det» på Sikkerhetskopi; økter som blir fullført eller avbrutt, med varighet; og steg i oppstarten. Hver installasjon får en tilfeldig, anonym identitet. Vi sender ikke navn, e-post, notater eller annet personlig innhold, og vi bruker ikke annonse-ID (IDFA). Det er ingen annonser, og vi sporer deg ikke på tvers av andre apper eller nettsteder. Vi har ikke et krasjrapporteringsverktøy.</p>
+
+    <h2>Deling</h2>
+    <p>Vi selger ikke opplysningene dine, og vi bruker dem ikke til annonser. Anonyme brukstall sendes til Mixpanel, som lagrer dem i EU, slik det er beskrevet over.</p>
+
+    <h2>Slik sletter du data</h2>
+    <p>I appen: åpne Deg og velg Nullstill. Da slettes økter, notater og innstillinger på telefonen, og appen starter som ny.</p>
+    <p>Du kan også slette appen. Da forsvinner dataene som ligger i appen på telefonen. Anonyme tellinger som allerede er sendt til Mixpanel, blir værende der.</p>
+
+    <h2>Barn</h2>
+    <p>bored. er ikke laget for barn under 13 år. Vi samler ikke inn opplysninger fra barn med vilje.</p>
+
+    <h2>Endringer</h2>
+    <p>Hvis vi endrer hvordan appen behandler opplysninger, oppdaterer vi denne siden og datoen øverst.</p>
+
+    <h2>Kontakt</h2>
+    <p>Spørsmål om personvern kan du sende til <a href="mailto:dusjak@live.com">dusjak@live.com</a>.</p>
+
+    <hr>
+    <footer>
+      <p><a href="support.html">Support</a></p>
+    </footer>
+  </main>
+</body>
+</html>
